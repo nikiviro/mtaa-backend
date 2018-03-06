@@ -12,7 +12,7 @@
 
 module.exports = {
   models: {
-    connection: 'dockerMysqlDb'
+    connection: 'dockerPsqlDb'
   },
 
   baseUrl: process.env.BASE_URL || (process.env.VIRTUAL_HOST ? ('http://' + process.env.VIRTUAL_HOST) : '') || 'http://localhost:8080',

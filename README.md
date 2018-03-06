@@ -17,6 +17,7 @@ Clone source codes from git and run
 
 ### Running
 Open terminal and switch to directory, where you have `docker-compose.yml`
+
 `docker-compose up`
 
 ### Stopping
@@ -99,3 +100,13 @@ Stop Docker/Node app and delete `db/data` directory
 
 ### Creating initial database state
 Insert valid SQL file into `db/init` file with .sql suffix
+
+### Creating database dump
+```
+docker-compose exec db bash
+pg_dump -U postgres mtaadb > /dump/20180306-1315.sql
+```
+```
+docker-compose exec db bash
+/usr/bin/mysqldump -u root -p mtaadb > /dump/20180306-1330.sql
+```

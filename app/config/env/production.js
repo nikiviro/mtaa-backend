@@ -12,7 +12,7 @@
 
 module.exports = {
   models: {
-    connection: 'dockerMysqlDb'
+    connection: 'dockerPsqlDb'
   },
 
   baseUrl: 'http://localhost:8080',

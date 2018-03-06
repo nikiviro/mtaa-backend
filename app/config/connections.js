@@ -40,5 +40,14 @@ module.exports.connections = {
     user: 'mtaa',
     password: 'Kie5deinah1ooriThiecheemaebohy7d',
     database: 'mtaadb'
+  },
+
+  dockerPsqlDb: {
+    adapter: 'sails-postgresql',
+    host: 'db',
+    port: 5432,
+    user: 'mtaa',
+    password: 'Kie5deinah1ooriThiecheemaebohy7d',
+    database: 'mtaadb'
   }
 };
