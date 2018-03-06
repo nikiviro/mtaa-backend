@@ -16,7 +16,11 @@ https://docs.docker.com/toolbox/toolbox_install_windows/
 Clone source codes from git and run
 
 ### Running
+Open terminal and switch to directory, where you have `docker-compose.yml`
 `docker-compose up`
+
+### Stopping
+`ctrl+c` or `docker-compose down`
 
 ## Using without Docker
 
